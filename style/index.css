@@ -1,1 +1,100 @@
 /* Add CSS styling here */
+
+header {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #introduction {
+    width: 50%;
+    display: flex;
+    border: 5px solid black;
+    padding: 10px;
+    text-align: center;
+    margin: 50px auto;
+    background: green;
+  }
+  
+  .links {
+   display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .bigPicture {
+    display: flex; 
+    align-content: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5%
+  }
+  
+  footer {
+    display:flex;
+    height: 50px;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  footer button {
+    height:20px;
+  }
+  
+
+  
+
+  /* My HTML code */
+  <header>
+  <nav>
+    <div>
+    <h1>Dylan Littlefield</h1>
+    </div>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+  <div>
+    <section id="introduction">
+      <div class="text">
+        <h2>My Portfolio</h2>
+        <p>My portfolio is not vert big yet because I havent been coding for very long</p>
+      </div>
+    </section>
+    
+ <section>
+   <div class="bigPicture">
+     <img src="https://picsum.photos/850/300">
+   </div>
+    </section>
+    
+<div class="container">
+  <div class="img1">
+    <img src="https://picsum.photos/200/300
+">
+    <p>This is a description of my project</p>  
+         </div>
+    <div class="img2">
+      <img src="https://picsum.photos/200/300
+">
+      <p>A description of another project</p>
+           </div>
+      <div class="img3">
+        <img src="https://picsum.photos/200/300
+">
+        <p>Description of yet another project</p>
+             </div>
+        <div class="img4">
+          <img src="https://picsum.photos/200/300
+">
+          <p>Description of final project</p>
+               </div>
+        </div>
+          
+    <footer>
+      <button>Contact Me</button>
+    </footer>
+    
