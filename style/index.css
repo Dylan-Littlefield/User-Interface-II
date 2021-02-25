@@ -1,11 +1,13 @@
 /* Add CSS styling here */
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 header {
     display: flex;
     justify-content: center;
   }
-  
-  #introduction {
+
+
+  .introduction {
     width: 50%;
     display: flex;
     border: 5px solid black;
@@ -22,13 +24,12 @@ header {
   
   .bigPicture {
     display: flex; 
-    align-content: center;
+    justify-content: center;
+    width: 100%;
   }
   
   .container {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 5%
+     margin: 5%
   }
   
   footer {
@@ -40,61 +41,20 @@ header {
   footer button {
     height:20px;
   }
-  
 
-  
-
-  /* My HTML code */
-  <header>
-  <nav>
-    <div>
-    <h1>Dylan Littlefield</h1>
-    </div>
-    <div class="links">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </nav>
-</header>
-  <div>
-    <section id="introduction">
-      <div class="text">
-        <h2>My Portfolio</h2>
-        <p>My portfolio is not vert big yet because I havent been coding for very long</p>
-      </div>
-    </section>
-    
- <section>
-   <div class="bigPicture">
-     <img src="https://picsum.photos/850/300">
-   </div>
-    </section>
-    
-<div class="container">
-  <div class="img1">
-    <img src="https://picsum.photos/200/300
-">
-    <p>This is a description of my project</p>  
-         </div>
-    <div class="img2">
-      <img src="https://picsum.photos/200/300
-">
-      <p>A description of another project</p>
-           </div>
-      <div class="img3">
-        <img src="https://picsum.photos/200/300
-">
-        <p>Description of yet another project</p>
-             </div>
-        <div class="img4">
-          <img src="https://picsum.photos/200/300
-">
-          <p>Description of final project</p>
-               </div>
-        </div>
-          
-    <footer>
-      <button>Contact Me</button>
-    </footer>
-    
+  .images {
+      display: flex;
+  }
+  @media (max-width: 800px) {
+      .introduction {
+          Background: red;
+      }
+  }
+ @media (max-width: 500px) {
+     header {
+         background: gray
+     }
+     footer {
+         background: gray 
+     }
+ }
